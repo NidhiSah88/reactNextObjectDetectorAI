@@ -1,3 +1,21 @@
+
+##Stuff required for project setup:
+
+1. Install latest version of nextjs.
+2. npx create-next-app@latest
+3. add typescript, tailwindcss as yes
+4. Add "next/babel" in  eslintrc.json
+ {
+  "extends": ["next/babel", "next/core-web-vitals"]
+}
+5. To run : npm run dev
+6. Install react webcam : npm install react-webcam and use webcam component and also import it " import webcam from react-webcam.
+7. INstall object detection AI model : cocoSSD which is part of tensorflow.
+8. npm i @tensorflow-models/coco-ssd @tensorflow/tfjs
+9. 
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -34,3 +52,21 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
